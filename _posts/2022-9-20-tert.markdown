@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "sim-to-real transfer for quadrupedal locomotion via terrain transformer"
+date:   2023-09-20 22:21:59 +00:00
+image: /images/TERT.png
+categories: research2
+author: "Xialin He"
+authors: "Hang lai, Weinan Zhang, <strong>Xialin He</strong>, Chen Yu, Zheng Tian, Yong Yu, Jun Wang"
+venue: "ICRA2023"
+arxiv: https://arxiv.org/abs/2212.07740
+code: https://www.dropbox.com/s/hima06k5i4k0mty/TERT.zip?dl=0
+website: https://terrain-transformer.github.io/
+---
+we propose Terrain Transformer (TERT), a simple yet effective method to leverage Transformer for quadrupedal locomotion over multiple terrains, including a two-stage training framework to incorporate Transformer with privileged learning.
