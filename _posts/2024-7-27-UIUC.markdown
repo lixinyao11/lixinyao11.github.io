@@ -4,9 +4,9 @@ title:  ""
 date:   2024-07-24 20:21:59 +00:00
 image: /images/UIUC.png
 categories: education
-author: "Xialin He"
+author: "Xinyao Li"
 school: "University of Illinois Urbana-Champaign"
 location: "Illinois, USA"
-degree: Ph.D. student in Computer Science, Aug 2024 - Current
+degree: Research intern in Computer Science, April 2025 - Current
 # degreebs: "B.S. in Computer Engineering, 2019-2023"
 ---
