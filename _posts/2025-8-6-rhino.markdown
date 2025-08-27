@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human Demonstrations"
+
+# TODO
+date:   2025-05-30 22:21:59 +00:00
+image: /images/alphaone.png
+
+categories: research1
+author: "Xinyao Li"
+authors: "Jingxiao Chen*, <strong>Xinyao Li*</strong>, Jiahang Cao*, Zhengbang Zhu, Wentao Dong, Minghuan Liu†, Ying Wen, Yong Yu, Liqing Zhang, Weinan Zhang"
+venue: "arxiv2025"
+arxiv: https://arxiv.org/abs/2502.13134
+code: https://github.com/TimerChen/RHINO
+website: https://humanoid-interaction.github.io/
+video: https://www.youtube.com/watch?v=Ps7dIM_cYqI
+---
+Propose the first real-time humanoid interaction framework capable of learning from human demonstrations, enabling dynamic task-switching and immediate responses to human instructions.
