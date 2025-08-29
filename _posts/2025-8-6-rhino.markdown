@@ -4,7 +4,7 @@ title:  "RHINO: Learning Real-Time Humanoid-Human-Object Interaction from Human 
 
 # TODO
 date:   2025-05-30 22:21:59 +00:00
-image: /images/rhino.pdf
+image: /images/rhino.png
 
 categories: research1
 author: "Xinyao Li"
