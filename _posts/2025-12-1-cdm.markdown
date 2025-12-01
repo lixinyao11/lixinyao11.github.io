@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Manipulation as in Simulation: Enabling Accurate Geometry Perception in Robots"
+
+# TODO
+date:   2025-09-30 22:21:59 +00:00
+image: /images/cdm.png
+
+categories: research2
+author: "Xinyao Li"
+authors: "Minghuan Liu*, Zhengbang Zhu*, Xiaoshen Han*, Peng Hu*, Haotong Lin, <strong>Xinyao Li<strong>, Jingxiao Chen, Jiafeng Xu, Yichu Yang, Yunfeng Lin, Xinghang Li, Yong Yu, Weinan Zhang, Tao Kong, Bingyi Kang,"
+venue: "arxiv2025"
+arxiv: https://arxiv.org/abs/2509.02530
+code: https://github.com/ByteDance-Seed/manip-as-in-sim-suite
+website: https://manipulation-as-in-simulation.github.io
+---
+Propose Camera Depth Models (CDMs) as a simple plugin on daily-use depth cameras, which take RGB images and raw depth signals as input and output denoised, accurate metric depth.
