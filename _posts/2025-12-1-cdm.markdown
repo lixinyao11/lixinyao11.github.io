@@ -8,7 +8,7 @@ image: /images/cdm.png
 
 categories: research2
 author: "Xinyao Li"
-authors: "Minghuan Liu*, Zhengbang Zhu*, Xiaoshen Han*, Peng Hu*, Haotong Lin, <strong>Xinyao Li<strong>, Jingxiao Chen, Jiafeng Xu, Yichu Yang, Yunfeng Lin, Xinghang Li, Yong Yu, Weinan Zhang, Tao Kong, Bingyi Kang,"
+authors: "Minghuan Liu*, Zhengbang Zhu*, Xiaoshen Han*, Peng Hu*, Haotong Lin, <strong>Xinyao Li</strong>, Jingxiao Chen, Jiafeng Xu, Yichu Yang, Yunfeng Lin, Xinghang Li, Yong Yu, Weinan Zhang, Tao Kong, Bingyi Kang,"
 venue: "arxiv2025"
 arxiv: https://arxiv.org/abs/2509.02530
 code: https://github.com/ByteDance-Seed/manip-as-in-sim-suite
