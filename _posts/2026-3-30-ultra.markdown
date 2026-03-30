@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation"
+
+# TODO
+date:   2026-03-30 22:21:59 +00:00
+image: /images/ultra.png
+
+categories: research2
+author: "Xinyao Li"
+authors: "Xialin He*, Sirui Xu*, <strong>Xinyao Li</strong>, Runpei Dong, Liuyu Bian, Yu-Xiong Wang†, Liang-Yan Gui†"
+venue: "arxiv 2026"
+arxiv: https://arxiv.org/abs/2603.03279
+# code: https://github.com/ByteDance-Seed/manip-as-in-sim-suite
+website: https://ultra-humanoid.github.io/
+---
+ULTRA is an all-in-one controller for humanoid loco-manipulation: track when references exist; act from egocentric perception and sparse intent when they don't.
