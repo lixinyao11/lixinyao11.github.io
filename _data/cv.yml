@@ -1,0 +1,72 @@
+cv:
+  name: Xinyao Li
+  label: Undergraduate researcher, humanoid robotics
+  email: xinyaoli511@gmail.com
+  location: Shanghai, China
+  image: ""
+  summary: Final-year CS undergraduate at Shanghai Jiao Tong University (ACM Honors Class) and research intern at UIUC, working on humanoid whole-body control and contact-rich object interaction.
+
+  social_networks:
+    - network: GitHub
+      username: lixinyao11
+
+  sections:
+    Education:
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        url: https://en.sjtu.edu.cn/
+        area: Computer Science
+        studyType: BS, ACM Honors Class
+        start_date: 2022-09
+        end_date: 2026-07
+        score: "GPA 89.3/100"
+        courses: "Computer Vision (100), Linear Algebra (97), Principle and Practice of Computer Algorithms (97), Computer Architecture (95), Advanced Compiler Designing (95), Machine Learning (93), Reinforcement Learning (93), Image Generation (93)"
+        highlights:
+          - A selective program admitting 30 students per year.
+
+    Research Experience:
+      - company: RoboVision @ Illinois Lab, University of Illinois Urbana-Champaign
+        position: Research Intern — ContactMimic
+        location: Illinois, USA
+        start_date: 2025-06
+        end_date: 2026-05
+        summary: Humanoid object interaction via contact control. Advised by Prof. Saurabh Gupta.
+        highlights:
+          - Proposed a contact-conditioned keypoint-tracking policy that lets a humanoid make or suppress physical contact at test time by toggling per-body-part binary contact labels under the same reference motion.
+          - Designed two contact-following rewards and a trajectory-augmentation scheme to break the spurious correlation between keypoints and contact.
+          - Enabled task-specific object interaction (wiping, sitting, leaning on a backrest, box lifting) without any task-specific rewards.
+          - Trained in Isaac Lab and deployed on a real Unitree G1 humanoid.
+          - Primary contributor; submitted to CoRL 2026.
+
+      - company: Robotics Group, ByteDance Research
+        position: Research Intern — efficient VLA
+        location: Beijing, China
+        start_date: 2025-01
+        end_date: 2025-05
+        summary: Building a cost-effective and efficient generalizable VLA for robots. Supervised by Minghuan Liu.
+        highlights:
+          - Achieved comparable performance with a 16x smaller model by distilling a pretrained VLA backbone, enabling shorter inference time and lower cost for deployment.
+          - Distilled the backbone by matching the hidden state latent space in Transformer layers, then finetuned with the action head.
+          - Validated with the CALVIN benchmark, OXE dataset (for pretraining) and the SIMPLER benchmark.
+          - Implemented the training and validation infrastructure as the independent developer.
+
+      - company: APEX Lab, Shanghai Jiao Tong University
+        position: Research Intern — RHINO
+        location: Shanghai, China
+        start_date: 2024-06
+        end_date: 2025-01
+        summary: Learning real-time humanoid-human-object interaction from human demonstrations. Advised by Prof. Weinan Zhang.
+        highlights:
+          - Proposed the first real-time humanoid interaction framework capable of learning from human demonstrations, enabling dynamic task-switching and immediate responses to human instructions.
+          - Trained models directly from human demonstration videos via human pose estimation and retargeting.
+          - Developed a fully open-sourced 3D-printed motion capture system for easy reproduction of the pipeline.
+          - Developed the complete training pipeline and real-world deployment as a primary contributor.
+          - Second author with equal contribution. Accepted to IROS 2026.
+
+    Skills:
+      - label: Robotics
+        details: Simulators (Isaac Lab, MuJoCo, IsaacGym), 3D-printing, real-world deployment
+      - label: Control
+        details: MPC, robot kinematics, adaptive control
+      - label: Coding
+        details: Python, PyTorch, ROS2, C++

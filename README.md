@@ -1,14 +1,47 @@
-# updated website
+# lixinyao11.github.io
 
-This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+Personal academic website of Xinyao Li, built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 
-The website design is just a modification of [Jon Barron's website](https://jonbarron.info/) and is converted for my own use, re-purposing my old markdown posts. **Feel free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
+## How it builds
 
+Unlike the previous Jekyll Now setup, this site is **not** built by GitHub's built-in Jekyll.
+al-folio depends on plugins outside the GitHub Pages whitelist (`jekyll-scholar`,
+`jekyll-imagemagick`, and others declared in the `Gemfile`), so building happens in CI:
 
+1. Push to `main` triggers `.github/workflows/deploy.yml`.
+2. The workflow builds the site with Ruby 3.3 and pushes the output to the `gh-pages` branch.
+3. GitHub Pages serves `gh-pages`.
 
-## issues
-* In general, jekyll will try to build a full page for every post. I skip that by forcing `permalink: /`. This creates multiple entries in sitemap.xml for index.html but is otherwise fine. 
-* If you want multiple paragraphs, consider using `excerpt_separator: <!--more-->` in `_config.yml`, for my own use I didn't need this. 
-* My own posts have lots of extra stuff left over from my old jekyll design ("author", long descriptions, etc.), feel free to ignore them
-* I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images. 
-* I have three categories of post with slightly differerent formatting, so changing sizing requires edits in multiple paces. 
+So **Settings → Pages → Source must point at the `gh-pages` branch**, not at "GitHub Actions".
+A build failure now means the site does not update — check the Actions tab rather than assuming
+the push went through.
+
+## Where the content lives
+
+| What | Where |
+| --- | --- |
+| Bio, profile photo, homepage text | `_pages/about.md` |
+| Publications | `_bibliography/papers.bib` |
+| News items on the homepage | `_news/*.md` |
+| CV content (rendered page) | `_data/cv.yml` |
+| CV file (download button) | `assets/pdf/Xinyao_Li_CV.pdf` |
+| Paper thumbnails | `assets/img/` (referenced by `preview={...}` in the bib) |
+| Email, GitHub, Scholar links | `_data/socials.yml` |
+| Venue badge colors | `_data/venues.yml` |
+| Coauthor links | `_data/coauthors.yml` |
+
+## Adding a paper
+
+Add an entry to `_bibliography/papers.bib`, drop a thumbnail into `assets/img/`, and reference it
+with `preview={filename}`. Set `selected={true}` to also show it on the homepage. The `abbr` field
+becomes the venue badge — add matching colors in `_data/venues.yml`.
+
+## Local preview
+
+The system Ruby on macOS is too old for this theme. Use Docker:
+
+```bash
+docker compose up
+```
+
+Then open <http://localhost:8080>.
