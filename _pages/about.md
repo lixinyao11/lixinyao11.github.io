@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Robotics Institute</p>
     <p>Carnegie Mellon University</p>
+    <p>xinyaol2@andrew.cmu.edu</p>
     <p>xinyaoli511@gmail.com</p>
 
 selected_papers: true

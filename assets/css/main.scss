@@ -44,3 +44,35 @@
   font-style: normal;
   font-weight: 700;
 }
+
+/* Publication rows: wider thumbnail, stretched to match the text block height.
+   Scoped to >=576px so the columns still stack normally on phones. */
+@media (min-width: 576px) {
+  .publications ol.bibliography li > .row {
+    align-items: stretch;
+  }
+  .publications ol.bibliography li > .row > .col-sm-2 {
+    flex: 0 0 27%;
+    max-width: 27%;
+    display: flex;
+    flex-direction: column;
+  }
+  .publications ol.bibliography li > .row > .col-sm-8 {
+    flex: 0 0 73%;
+    max-width: 73%;
+  }
+  .publications ol.bibliography li > .row > .col-sm-2 figure {
+    margin: 0;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+  .publications ol.bibliography li > .row > .col-sm-2 picture {
+    display: block;
+    height: 100%;
+  }
+  .publications ol.bibliography li > .row > .col-sm-2 .preview {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

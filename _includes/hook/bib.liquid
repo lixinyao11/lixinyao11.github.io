@@ -1,0 +1,16 @@
+{%- comment -%}
+  Local override of the venue line.
+
+  The theme renders "In {booktitle}, {month} {year}". We want the venue exactly
+  as written in the bib entry (e.g. "IROS 2026", "arXiv 2026") and nothing else,
+  so drop the "In" prefix and blank out the month/year that would be appended.
+
+  entry.year is left untouched, so jekyll-scholar still groups by year.
+{%- endcomment -%}
+{%- assign al_venue = entry.booktitle -%}
+{%- if al_venue == nil or al_venue == '' -%}{%- assign al_venue = entry.journal -%}{%- endif -%}
+{%- if al_venue and al_venue != '' -%}
+  {%- capture entrytype %}<em>{{ al_venue }}</em>{% endcapture -%}
+{%- endif -%}
+{%- assign entrymonth = '' -%}
+{%- assign entryyear = '' -%}
