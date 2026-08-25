@@ -34,7 +34,7 @@ cv:
         highlights:
           - A selective program admitting 30 students per year.
 
-    Research Experience:
+    Experience:
       - company: RoboVision @ Illinois Lab, University of Illinois Urbana-Champaign
         position: Research Intern — ContactMimic
         location: Illinois, USA
@@ -74,9 +74,21 @@ cv:
           - Second author with equal contribution. Accepted to IROS 2026.
 
     Skills:
-      - label: Robotics
-        details: Simulators (Isaac Lab, MuJoCo, IsaacGym), 3D-printing, real-world deployment
-      - label: Control
-        details: MPC, robot kinematics, adaptive control
-      - label: Coding
-        details: Python, PyTorch, ROS2, C++
+      - name: Robotics
+        keywords:
+          - Isaac Lab
+          - MuJoCo
+          - IsaacGym
+          - 3D-printing
+          - real-world deployment
+      - name: Control
+        keywords:
+          - MPC
+          - robot kinematics
+          - adaptive control
+      - name: Coding
+        keywords:
+          - Python
+          - PyTorch
+          - ROS2
+          - C++
