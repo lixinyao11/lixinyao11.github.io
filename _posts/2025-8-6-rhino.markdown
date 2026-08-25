@@ -9,7 +9,7 @@ image: /images/rhino.png
 categories: research1
 author: "Xinyao Li"
 authors: "Jingxiao Chen*, <strong>Xinyao Li*</strong>, Jiahang Cao*, Zhengbang Zhu, Wentao Dong, Minghuan Liu†, Ying Wen, Yong Yu, Liqing Zhang, Weinan Zhang"
-venue: "arxiv2025"
+venue: "IROS 2026"
 arxiv: https://arxiv.org/abs/2502.13134
 code: https://github.com/TimerChen/RHINO
 website: https://humanoid-interaction.github.io/

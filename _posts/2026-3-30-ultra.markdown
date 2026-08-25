@@ -9,7 +9,7 @@ image: /images/ultra.png
 categories: research2
 author: "Xinyao Li"
 authors: "Xialin He*, Sirui Xu*, <strong>Xinyao Li</strong>, Runpei Dong, Liuyu Bian, Yu-Xiong Wang†, Liang-Yan Gui†"
-venue: "arxiv 2026"
+venue: "IROS 2026"
 arxiv: https://arxiv.org/abs/2603.03279
 # code: https://github.com/ByteDance-Seed/manip-as-in-sim-suite
 website: https://ultra-humanoid.github.io/
