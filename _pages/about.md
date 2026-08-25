@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate at <a href="https://en.sjtu.edu.cn/">SJTU</a> · Research intern at <a href="https://illinois.edu/">UIUC</a>
+subtitle: Incoming MSR student at <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>ACM Honors Class</p>
-    <p>Shanghai Jiao Tong University</p>
+    <p>Robotics Institute</p>
+    <p>Carnegie Mellon University</p>
     <p>xinyaoli511@gmail.com</p>
 
 selected_papers: true
@@ -27,10 +27,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a final-year undergraduate at **Shanghai Jiao Tong University**, majoring in Computer Science in the [ACM Honors Class](https://acm.sjtu.edu.cn/home) — a selective program admitting 30 students per year.
+I am an incoming **MSR** student at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University, where I will be advised by [Prof. Guanya Shi](https://www.gshi.me/).
 
-Since June 2025 I have been a research intern at the **RoboVision @ Illinois Lab**, University of Illinois Urbana-Champaign, advised by [Prof. Saurabh Gupta](https://saurabhg.web.illinois.edu/).
+I received my BS in Computer Science from **Shanghai Jiao Tong University**, in the [ACM Honors Class](https://acm.sjtu.edu.cn/home) — a selective program admitting 30 students per year.
 
 My research is on **humanoid robots** — in particular how to make whole-body policies do something useful in contact with the physical world, rather than merely reproducing human-like poses. Recent work spans contact-controllable object interaction ([ContactMimic](https://lixinyao11.github.io/contactmimic-page/)), unified loco-manipulation control ([ULTRA](https://ultra-humanoid.github.io/)), and real-time human-humanoid interaction ([RHINO](https://humanoid-interaction.github.io/)). I train in simulation (Isaac Lab, MuJoCo, IsaacGym) and deploy on real hardware, mostly the Unitree G1.
 
-Previously I worked on efficient vision-language-action models at **ByteDance Research** (Robotics Group), and on humanoid interaction at the **APEX Lab**, SJTU, advised by [Prof. Weinan Zhang](https://wnzhang.net/).
+Before CMU I was a research intern at the **RoboVision @ Illinois Lab**, University of Illinois Urbana-Champaign, advised by [Prof. Saurabh Gupta](https://saurabhg.web.illinois.edu/), where I did ContactMimic. Earlier I worked on efficient vision-language-action models at **ByteDance Research** (Robotics Group), and on humanoid interaction at the **APEX Lab**, SJTU, advised by [Prof. Weinan Zhang](https://wnzhang.net/).

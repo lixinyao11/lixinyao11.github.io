@@ -1,10 +1,10 @@
 cv:
   name: Xinyao Li
-  label: Undergraduate researcher, humanoid robotics
+  label: Incoming MSR student, CMU Robotics Institute
   email: xinyaoli511@gmail.com
-  location: Shanghai, China
+  location: Pittsburgh, PA
   image: ""
-  summary: Final-year CS undergraduate at Shanghai Jiao Tong University (ACM Honors Class) and research intern at UIUC, working on humanoid whole-body control and contact-rich object interaction.
+  summary: Incoming MSR student at the Carnegie Mellon Robotics Institute, advised by Prof. Guanya Shi. BS in Computer Science from Shanghai Jiao Tong University (ACM Honors Class). Working on humanoid whole-body control and contact-rich object interaction.
 
   social_networks:
     - network: GitHub
@@ -12,6 +12,16 @@ cv:
 
   sections:
     Education:
+      - institution: Carnegie Mellon University
+        location: Pittsburgh, PA, USA
+        url: https://www.ri.cmu.edu/
+        area: Robotics
+        studyType: MSR (Master of Science in Robotics)
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - Advised by Prof. Guanya Shi, Robotics Institute.
+
       - institution: Shanghai Jiao Tong University
         location: Shanghai, China
         url: https://en.sjtu.edu.cn/
