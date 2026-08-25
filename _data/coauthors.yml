@@ -1,15 +1,2 @@
-"he":
-  - firstname: ["Xialin", "X."]
-    url: https://xialin-he.github.io/
-
-"dong":
-  - firstname: ["Runpei", "R."]
-    url: https://runpeidong.web.illinois.edu/
-
-"gupta":
-  - firstname: ["Saurabh", "S."]
-    url: https://saurabhg.web.illinois.edu/
-
-"zhang":
-  - firstname: ["Weinan", "W."]
-    url: https://wnzhang.net/
+# Coauthor homepage links, keyed by lower-cased last name.
+# Left empty on purpose: author names render as plain text, without links.
