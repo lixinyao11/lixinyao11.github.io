@@ -1,10 +1,10 @@
 cv:
   name: Xinyao Li
-  label: Incoming MSR student, CMU Robotics Institute
+  label: First-year MSR student, CMU Robotics Institute
   email: xinyaoli511@gmail.com
   location: Pittsburgh, PA
   image: ""
-  summary: Incoming MSR student at the Carnegie Mellon Robotics Institute, advised by Prof. Guanya Shi. BS in Computer Science from Shanghai Jiao Tong University (ACM Honors Class). Working on humanoid whole-body control and contact-rich object interaction.
+  summary: First-year MSR student at the Carnegie Mellon Robotics Institute, advised by Prof. Guanya Shi. BS in Computer Science from Shanghai Jiao Tong University (ACM Honors Class). Working on humanoid whole-body control and contact-rich object interaction.
 
   social_networks:
     - network: GitHub

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming MSR student at <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>
+subtitle: First-year MSR student at <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3
 ---
 
-I am an incoming **MSR** student at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University, where I will be advised by [Prof. Guanya Shi](https://www.gshi.me/).
+I am a first-year **MSR** student at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University, advised by [Prof. Guanya Shi](https://www.gshi.me/).
 
 I received my BS in Computer Science from **Shanghai Jiao Tong University**, in the [ACM Honors Class](https://acm.sjtu.edu.cn/home) — a selective program admitting 30 students per year.
 
