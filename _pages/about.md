@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: First-year MSR student at <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>
 
 profile:
   align: right
