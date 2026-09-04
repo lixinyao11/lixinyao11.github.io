@@ -242,7 +242,6 @@ exclude:
   - migrations/
   - vendor
 keep_files:
-  - CNAME
   - .nojekyll
 
 # Use al_folio_core as the theme runtime; local files can still override theme files.
