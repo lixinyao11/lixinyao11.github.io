@@ -346,7 +346,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Li]
+  last_name: [Li, "Li*"]
   first_name: [Xinyao, X.]
 
   style: apa
