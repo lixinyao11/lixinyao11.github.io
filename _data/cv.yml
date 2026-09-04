@@ -46,7 +46,7 @@ cv:
           - Designed two contact-following rewards and a trajectory-augmentation scheme to break the spurious correlation between keypoints and contact.
           - Enabled task-specific object interaction (wiping, sitting, leaning on a backrest, box lifting) without any task-specific rewards.
           - Trained in Isaac Lab and deployed on a real Unitree G1 humanoid.
-          - Primary contributor; submitted to CoRL 2026.
+          - Primary contributor; accepted to CoRL 2026.
 
       - company: Robotics Group, ByteDance Research
         position: Research Intern — efficient VLA
