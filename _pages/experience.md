@@ -20,7 +20,7 @@ nav_order: 2
 <div class="exp-item">
   <div class="exp-head">
     <span class="exp-org">Shanghai AI Laboratory</span>
-    <span class="exp-date">TBD</span>
+    <span class="exp-date">Apr 2026 &ndash; Jul 2026</span>
   </div>
   <div class="exp-role">Research Intern</div>
 </div>
