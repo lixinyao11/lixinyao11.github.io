@@ -76,3 +76,34 @@
     object-fit: cover;
   }
 }
+
+/* Experience page: organisation + right-aligned dates, role and one-line note. */
+.experience .exp-item {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.experience .exp-item:last-child {
+  border-bottom: none;
+}
+.experience .exp-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+.experience .exp-org {
+  font-weight: 600;
+}
+.experience .exp-date {
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+.experience .exp-role {
+  font-size: 0.95rem;
+}
+.experience .exp-note {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
