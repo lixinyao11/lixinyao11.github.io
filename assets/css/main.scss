@@ -107,3 +107,39 @@
   color: var(--global-text-color-light);
   font-size: 0.9rem;
 }
+
+/* About header: social icons sit beside the name, a step smaller than it. */
+.post-title.title-with-socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.9rem;
+}
+.title-with-socials .title-socials {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.42em;
+  line-height: 1;
+  position: relative;
+  top: -0.15em;
+}
+.title-with-socials .title-socials a {
+  color: var(--global-text-color-light);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.title-with-socials .title-socials a:hover,
+.title-with-socials .title-socials a:focus-visible {
+  color: var(--global-theme-color);
+}
+.title-with-socials .title-socials i,
+.title-with-socials .title-socials .ai {
+  font-size: inherit;
+}
+@media (max-width: 575px) {
+  .title-with-socials .title-socials {
+    font-size: 0.6em;
+    top: 0;
+  }
+}
