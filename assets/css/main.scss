@@ -115,6 +115,10 @@
   align-items: baseline;
   gap: 0.25rem 0.9rem;
 }
+.title-with-socials .title-name {
+  /* The theme bolds only the given name; bold the surname to match. */
+  font-weight: 700;
+}
 .title-with-socials .title-socials {
   display: inline-flex;
   align-items: baseline;
