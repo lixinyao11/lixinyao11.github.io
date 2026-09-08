@@ -149,11 +149,11 @@
 }
 
 /* Theme accent. Drives every link, the active nav item and icon hovers.
-   #E6A08C measures 2.15:1 on white (WCAG AA wants 4.5:1 for body text) and
-   7.92:1 on the dark background. */
+   Light #D29383 measures 2.55:1 on white; dark #E6A08C measures 7.92:1 on the
+   dark background. WCAG AA wants 4.5:1 for body text. */
 :root {
-  --global-theme-color: #e6a08c;
-  --global-hover-color: #e6a08c;
+  --global-theme-color: #d29383;
+  --global-hover-color: #d29383;
 }
 html[data-theme="dark"] {
   --global-theme-color: #e6a08c;
