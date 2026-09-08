@@ -14,6 +14,7 @@ profile:
     <p>xinyaoli511@gmail.com</p>
 
 selected_papers: true
+experience: true
 social: true
 
 announcements:
