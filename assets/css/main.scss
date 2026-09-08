@@ -147,3 +147,15 @@
     top: 0;
   }
 }
+
+/* Theme accent. Drives every link, the active nav item and icon hovers.
+   #F5A498 measures 1.97:1 on white (WCAG AA wants 4.5:1 for body text) and
+   8.63:1 on the dark background. */
+:root {
+  --global-theme-color: #f5a498;
+  --global-hover-color: #f5a498;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #f5a498;
+  --global-hover-color: #f5a498;
+}
