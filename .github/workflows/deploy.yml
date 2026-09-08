@@ -104,6 +104,15 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Re-stamp stylesheet cache busting 🔄
+        run: |
+          # jekyll-cache-bust's hash does not track our local assets/css/main.scss
+          # override (it stayed identical across deploys), so CSS changes never
+          # reached returning visitors. Re-stamp with the checksum of the file
+          # purgecss actually emitted.
+          hash=$(md5sum _site/assets/css/main.css | cut -d' ' -f1)
+          find _site -name '*.html' -exec sed -i "s/main\.css?v=[a-f0-9]\+/main.css?v=$hash/g" {} +
+          echo "stamped main.css?v=$hash"
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
