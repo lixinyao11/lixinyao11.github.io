@@ -159,3 +159,9 @@ html[data-theme="dark"] {
   --global-theme-color: #e6a08c;
   --global-hover-color: #e6a08c;
 }
+
+/* Award highlight on the line under a publication's venue. */
+.publications .pub-award {
+  color: var(--global-highlight-color);
+  font-weight: 600;
+}
